@@ -78,7 +78,12 @@ function functionName() {
 //повторяющаяся часть (function)
 
 
-
+function functionWithArgs(one, two) {
+    console.log(one, two);
+    functionWithArgs(7,9);
+    console.log(7, 9);
+}
+//функции со значением и вызовом
 
 
 
