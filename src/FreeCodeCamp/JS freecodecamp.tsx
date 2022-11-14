@@ -79,11 +79,19 @@ function functionName() {
 
 
 function functionWithArgs(one, two) {
-    console.log(one, two);
-    functionWithArgs(7,9);
-    console.log(7, 9);
+
+    console.log(one+two);
 }
+functionWithArgs(7, 3);
 //функции со значением и вызовом
+
+
+function timesFive(num){
+    return num*5;
+}
+const answer = timesFive();
+//возврат значение функции
+
 
 
 
