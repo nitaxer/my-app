@@ -93,6 +93,16 @@ const answer = timesFive();
 //возврат значение функции
 
 
+// глобальная область видиости
+let myGlobal = 10;
+
+function fun1() {
+    // локальная область видимости
+    oopsGlobal=5;
+}
+
+
+
 
 
 
