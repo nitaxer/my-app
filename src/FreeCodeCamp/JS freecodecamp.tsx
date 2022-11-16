@@ -167,6 +167,56 @@ processed = processArg(7);
 
 
 
+function nextInLine(arr, item) {
+    var queue = arr.push(item);
+    //PUSH добавляет элемент в конец массива
+
+    var removeItem = arr.shift();
+    //shift удаляет первый элемент массива
+    return removeItem;
+
+
+
+    function welcomeToBooleans() {
+        return true; // Change this line
+        //логические операции тру и фолс взаимнозаменяющиесф
+
+
+        function trueOrFalse(wasThatTrue) {
+
+            if (wasThatTrue){
+                return "Yes, that was true";
+            }
+            {return "No, that was false";
+            }}
+        trueOrFalse;
+        //оператор условия IF}
+
+        function equalityTest(myVal) {
+            if (myVal == 10) {
+                return "Equal";
+            }
+            return "Not Equal";
+        }
+        //ОПЕРАТОР РАВЕНСТВА ==
+
+        function testStrict(val) {
+            if (val === 7) { // СТРОГОЕ РАВЕНСТВО
+                return "Equal";
+            }return "Not Equal";
+        }testStrict(10);
+
+        typeof//определение типа переменной
+
+            function testNotEqual(val) {
+                if (val!=99) {
+                    return "Not Equal";
+                }
+                return "Equal";}
+        //оператор НЕРАВЕНСТВА
+
+
+
 
 
 
