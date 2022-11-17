@@ -215,6 +215,53 @@ function nextInLine(arr, item) {
                 return "Equal";}
         //оператор НЕРАВЕНСТВА
 
+        function testStrictNotEqual(val) {
+            if (val!==17) { // Change this line
+                return "Not Equal";
+            }
+            return "Equal";
+        }
+        //строгое неравенство
+        3 !==  3  // false
+        3 !== '3' // true
+        4 !==  3  // true
+
+        function testGreaterThan(val) {
+            if (val>100) {  // Change this line
+                return "Over 100";
+            }
+            if (val>10) {  // Change this line
+                return "Over 10";
+            }
+            return "10 or Under";
+        }
+        testGreaterThan(10);
+//оператор сравнения (строго больше)
+
+        function testGreaterOrEqual(val) {
+            if (val>=20) {  // Change this line
+                return "20 or Over";
+            }
+            if (val>=10) {  // Change this line
+                return "10 or Over";
+            }
+            return "Less than 10";
+        }
+        testGreaterOrEqual(10);
+//оператор сравнения (больше либо равно)
+
+        if (num > 5) {
+            if (num < 10) {
+                return "Yes";
+            }
+        }
+        //логически оператор возващает зачение
+        //только когда оба операнта TRUE
+        return "No";
+        if (num > 5 && num < 10) {
+            return "Yes";
+        }
+        return "No";
 
 
 
