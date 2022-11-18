@@ -263,6 +263,49 @@ function nextInLine(arr, item) {
         }
         return "No";
 
+        function testLogicalOr(val) {
+            if (val > 20 || val < 10) {
+                return "Outside";
+            }
+            return "Inside";
+        }
+        testLogicalOr(15);
+//логический оператор || выполняется при 1 true операнде
+
+        if (num > 10) {
+            return "Bigger than 10";
+        } else {
+            return "10 or Less";
+        }
+        //оператор else для альтернативного решения кода
+
+
+        if (num > 15) {
+            return "Bigger than 15";
+        } else if (num < 5) {
+            return "Smaller than 5";
+        } else {
+            return "Between 5 and 15";
+        }
+        //оператор else if для выполения  нескольких условий
+
+        unction testSize(num) {
+            // Only change code below this line
+            if (num<5){
+                return "Tiny";
+            } else if (num<10){
+                return "Small";
+            } else if (num<15){
+                return "Medium";
+            } else if (num<20){
+                return "Large";
+            }else if (num>=20){
+                return"Huge";
+            }else{
+                return "Change Me";}
+        }
+        testSize(7);
+        // else if используется для сложных связок
 
 
 
