@@ -307,9 +307,67 @@ function nextInLine(arr, item) {
         testSize(7);
         // else if используется для сложных связок
 
+        const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+
+        function golfScore(par, strokes) {
+            // Only change code below this line
+            if (strokes < 2) {
+                return "Hole-in-one!";
+            } else if (par == par && strokes <= par-2) {
+                return "Eagle";
+            } else if (par == par && strokes <= par-1) {
+                return "Birdie";
+            } else if (par == par && strokes === par) {
+                return "Par";
+            } else if (par == par && strokes === par+1) {
+                return "Bogey";
+            } else if (par == par && strokes === par+2) {
+                return "Double Bogey";
+            } else if (par == par && strokes >= par+3) {
+                return "Go Home!";
+            }
+            return "Change Me";
+
+            // Only change code above this line
+        }
+
+        golfScore(5, 4);
+        //задача про гольф, нужно еще раз просмотреть
 
 
+        function caseInSwitch(val) {
+            let answer = "";
+            // Only change code below this line
+            switch (val){
+                case 1:
+                    answer="alpha";
+                    break;
+                case 2:
+                    answer="beta";
+                    break;
+                case 3:
+                    answer="gamma";
+                    break;
+                case 4:
+                    answer="delta";
+                    break;
+            }
 
+            return answer;
+        }
+        caseInSwitch(1);
+
+//выбор из ножества вариантов с оператором switch
+//case
+//breake
+        switch (lowercaseLetter) {
+            case "a":
+                console.log("A");
+                break;
+            case "b":
+                console.log("B");
+                break;
+        }
 
 
 
