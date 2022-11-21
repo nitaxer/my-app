@@ -464,7 +464,7 @@ function nextInLine(arr, item) {
         }
 
         switchOfStuff(1);
-        //инструкция switch\case
+        //инструкция switch\case//K
 
 
 
