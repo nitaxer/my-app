@@ -522,8 +522,18 @@ function nextInLine(arr, item) {
     chainToSwitch(7);
     //замена множественных операторов if.else на switch
 
+    function isEqual(a, b) {
+        return a === b;
+    }
 
+//замена if/else
 
+    function myFun() {
+        console.log("Hello");
+        return "World";
+        console.log("byebye")
+    }
+    myFun();
 
 
 
