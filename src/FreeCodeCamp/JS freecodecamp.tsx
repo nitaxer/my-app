@@ -578,6 +578,20 @@ function nextInLine(arr, item) {
     //задача с картами
 
 
+    const myDog = {
+        // Only change code below this line
+        "name":"",
+        "legs":4,
+        "tails":1,
+        "friends":["Cat", "Maus"]
+
+        // Only change code above this line
+    };
+    //объект вкладывает в себя некоторые свойства
+
+
+
+
 
 
 
