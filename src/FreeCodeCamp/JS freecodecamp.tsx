@@ -596,6 +596,7 @@ function nextInLine(arr, item) {
 
     const prop1val = myObj.prop1;
     const prop2val = myObj.prop2;
+//    задание
 
 
 
