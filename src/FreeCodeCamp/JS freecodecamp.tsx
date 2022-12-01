@@ -634,6 +634,30 @@ function nextInLine(arr, item) {
     const player = testObj[playerNumber];   // Change this line
 //доступ к свойствам через квадратные скобки
 
+// Setup
+    const myDog = {
+        "name": "Coder",
+        "legs": 4,
+        "tails": 1,
+        "friends": ["freeCodeCamp Campers"]
+    };
+    myDog["name"] = "Happy Coder";
+// Only change code below this line
+//изменение свойств переменной
+
+
+// Setup
+    cont myDog = {
+        "name": "Happy Coder",
+        "legs": 4,
+        "tails": 1,
+        "friends": ["freeCodeCamp Campers"],
+        "bark": "woof"
+    };
+    delete myDog.tails;
+// Only change code below this line
+//удаление свойств
+
 
 
 
