@@ -567,8 +567,9 @@ function nextInLine(arr, item) {
             return String(count) + " Hold";
         }
         else {
-            return String(count) + " Bet";
+            return String(count) + " ";
         }
+
 
         return "Change Me";
         // Only change code above this line
@@ -674,7 +675,14 @@ function nextInLine(arr, item) {
     //использование объектов для поиска
 
 
+    const myObj = {
+        top: "hat",
+        bottom: "pants"
+    };
 
+    myObj.hasOwnProperty("top");
+    myObj.hasOwnProperty("middle");
+    //тестирование объектов на свойства
 
 
 
