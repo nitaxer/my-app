@@ -684,7 +684,20 @@ function nextInLine(arr, item) {
     myObj.hasOwnProperty("middle");
     //тестирование объектов на свойства
 
-
+    const ourMusic = [
+        {
+            "artist": "Daft Punk",
+            "title": "Homework",
+            "release_year": 1997,
+            "formats": [
+                "CD",
+                "Cassette",
+                "LP"
+            ],
+            "gold": true
+        }
+    ];
+    //манипулирование сложнми объектами
 
 
 
