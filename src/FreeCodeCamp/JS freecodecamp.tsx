@@ -716,6 +716,7 @@ function nextInLine(arr, item) {
     ourStorage.cabinet["top drawer"].folder2;
     ourStorage.desk.drawer;
     //доступ к вложенным объектам
+//просотреть последние задания
 
 
 
