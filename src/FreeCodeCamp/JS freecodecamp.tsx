@@ -720,4 +720,13 @@ function nextInLine(arr, item) {
 
 
 
+    const ourArray = [];
+    let i = 0;
+
+    while (i < 5) {
+        ourArray.push(i);
+        i++;
+    }
+    //повторение во время циклов
+
 
